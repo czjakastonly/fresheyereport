@@ -61,7 +61,7 @@
       position: fixed;
       top: 0; left: 0;
       height: 100vh;
-      background: var(--neutral-750);
+      background: #262144;
       border-right: 1px solid rgba(255,255,255,0.06);
       display: flex;
       flex-direction: column;
@@ -588,6 +588,7 @@
 
     /* ── Paweł mode: hide editing controls ── */
     [data-mode="pawel"] .add-card-btn { display: none !important; }
+    [data-mode="pawel"] .save-changes-btn { display: none !important; }
     [data-mode="pawel"] .editable { cursor: default !important; pointer-events: none !important; }
     [data-mode="pawel"] .img-del-btn { display: none !important; }
     [data-mode="pawel"] .drop-zone { display: none !important; }
